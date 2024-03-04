@@ -48,6 +48,9 @@ This project applies the available AlphaCodium flow to generate code correspondi
 Then, create code to backtest the chosen strategy.
 
 #### **Problem Description and public test**: is developed as Json file
+![image](https://github.com/TruongQuynhNhu/ApplyAlphaCodiumforCodeGeneration/assets/107611691/ab839ace-3a29-4f08-a8e7-eee08cd0d8fe)
+![image](https://github.com/TruongQuynhNhu/ApplyAlphaCodiumforCodeGeneration/assets/107611691/9157bf8c-1b89-4fa6-bee4-6d5a12ab5b7a)
+![image](https://github.com/TruongQuynhNhu/ApplyAlphaCodiumforCodeGeneration/assets/107611691/641b99b4-27de-4230-9e94-afed2b8ef274)
 
 {
   "name": "Investment Strategy Backtest",
@@ -70,7 +73,7 @@ Then, create code to backtest the chosen strategy.
   }
 }
 
-#### **Reflection**:
+### 2.4.Reflection
 
 After completing this project, several conclusions have been drawn:
 
