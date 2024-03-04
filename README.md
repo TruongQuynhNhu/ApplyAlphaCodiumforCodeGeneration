@@ -4,10 +4,8 @@ Apply AlphaCodium (of AICodium) for Trading Strategy and Backtest problem
 Reference: [Paper](https://arxiv.org/abs/2401.08500) |
 [Dataset](https://huggingface.co/datasets/talrid/CodeContests_valid_and_test_AlphaCodium/blob/main/codecontests_valid_and_test_processed_alpha_codium.zip)
 
-## Table of Contents:
--
 
-### 1. Installation
+## 1. Installation
 
 (0) clone AlphaCodium Github:git clone https://github.com/Codium-ai/AlphaCodium.git
 
@@ -18,13 +16,13 @@ Reference: [Paper](https://arxiv.org/abs/2401.08500) |
 [openai]
 key = "..."
 
-### 2. How to run
+## 2. How to run
 
-#### 2.1. Configuration
+### 2.1. Configuration
 The file: `alpha_codium/settings/configuration.toml` contains the configuration for the project.
 In the `config` section you can choose the model you want to use ("gpt-4", "gpt-3.5-turbo-16k", or others).
 
-#### 2.2. Solving a new problem (CodeContest format)
+### 2.2. Solving a new problem (CodeContest format)
 To solve a custom problem with AlphaCodium, first create a json file that includes the CodeContest problem fields, and then from the root folder run:
 ```
 python -m alpha_codium.solve_my_problem \
@@ -41,7 +39,7 @@ See the `my_problem_example.json` to see an example of a custom problem. The jso
 - (optional) `private_tests`, that follows the same structure as `public_tests`
 - (optional) `generated_tests`, that follows the same structure as `public_tests`
 
-#### 2.3. Apply to the problem of executing trading strategy and backtesting
+### 2.3. Apply to the problem of executing trading strategy and backtesting
 
 This project applies the available AlphaCodium flow to generate code corresponding to a specific trading strategy using `SMA5` and `SMA22` indicators as follows:
 
@@ -49,7 +47,7 @@ This project applies the available AlphaCodium flow to generate code correspondi
 - When the 5-day moving average crosses below the 22-day moving average: sell signal.
 Then, create code to backtest the chosen strategy.
 
-##### **Problem Description and public test**: is developed as Json file
+#### **Problem Description and public test**: is developed as Json file
 
 {
   "name": "Investment Strategy Backtest",
@@ -72,7 +70,7 @@ Then, create code to backtest the chosen strategy.
   }
 }
 
-##### **Reflection**:
+#### **Reflection**:
 
 After completing this project, several conclusions have been drawn:
 
@@ -87,7 +85,7 @@ After completing this project, several conclusions have been drawn:
 - Proper machine configuration is essential for rerunning existing code package effectively.
 
 
-### Citation
+## 3. Citation
 ```
 @misc{ridnik2024code,
       title={Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering}, 
