@@ -48,6 +48,12 @@ This project applies the available AlphaCodium flow to generate code correspondi
 Then, create code to backtest the chosen strategy.
 
 #### **Problem Description and public test**
+**Trading Strategy problem**
+![image](https://github.com/TruongQuynhNhu/ApplyAlphaCodiumforCodeGeneration/assets/107611691/fcabbb69-c0ea-4134-b745-44a15c160430)
+![image](https://github.com/TruongQuynhNhu/ApplyAlphaCodiumforCodeGeneration/assets/107611691/4de5e35b-cd3f-434f-aa6c-b97ea3bd8c85)
+![image](https://github.com/TruongQuynhNhu/ApplyAlphaCodiumforCodeGeneration/assets/107611691/b12fb58d-0a44-4575-9449-025367107bf7)
+
+**Back test problem**
 ![image](https://github.com/TruongQuynhNhu/ApplyAlphaCodiumforCodeGeneration/assets/107611691/a340a93e-ad90-44b6-8ddc-960c4855a2e6)
 ![image](https://github.com/TruongQuynhNhu/ApplyAlphaCodiumforCodeGeneration/assets/107611691/9157bf8c-1b89-4fa6-bee4-6d5a12ab5b7a)
 ![image](https://github.com/TruongQuynhNhu/ApplyAlphaCodiumforCodeGeneration/assets/107611691/641b99b4-27de-4230-9e94-afed2b8ef274)
@@ -58,9 +64,9 @@ The problem description and public tests are input as json file.
 
 After completing this project, several conclusions have been drawn:
 
-- Note that when running the code and comparing data, calculate the original value until the end of the table, then display the rounded value to the appropriate number of decimal places. This ensures correct comparison between the output of the test and the output of the generated code.
+- Note that when running the code and comparing data, first calculate the original value until the end of the table, then display the rounded value to the appropriate number of decimal places. This ensures correct comparison between the output of the test and the output of the generated code.
 
-- The additional AI tests created are quite error-prone, especially when dealing with detailed numerical problems like this.
+- The additional AI tests created are quite error-prone, especially when dealing with detailed numerical problems like this problem.
 
 - The description of the problem is crucial; it should be accurate, concise, and comprehensive. Pay attention to escape characters and other symbols (-, ", ', `), as they can disrupt the flow of prompts and reduce productivity in responding to prompts. Since the AI undergoes many intermediate steps of deduction and analysis, an unclear or vague description can magnify errors and prevent convergence toward a correct solution.
 
