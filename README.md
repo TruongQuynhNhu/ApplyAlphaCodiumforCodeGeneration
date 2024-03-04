@@ -58,15 +58,15 @@ The problem description and public tests are input as json file.
 
 After completing this project, several conclusions have been drawn:
 
-- It's crucial to take note of the original values when running the code, compare data, calculate results, and display rounded values to an appropriate number of decimal places. This ensures accurate comparisons.
+- Note that when running the code and comparing data, calculate the original value until the end of the table, then display the rounded value to the appropriate number of decimal places. This ensures correct comparison between the output of the test and the output of the generated code.
 
-- Creating AI tests can be prone to errors, particularly when dealing with numerical problems like the ones encountered in this project.
+- The additional AI tests created are quite error-prone, especially when dealing with detailed numerical problems like this.
 
-- The problem description is of utmost importance; it should be precise, comprehensive, and not overly lengthy. Additionally, special attention should be given to characters such as escape characters and punctuation marks (-, ", ', `), as they can disrupt the flow of prompts and hinder productivity in responding to prompts. Since the AI operates through multiple intermediate steps, an unclear or vague description can amplify errors and prevent convergence toward a correct solution.
+- The description of the problem is crucial; it should be accurate, concise, and comprehensive. Pay attention to escape characters and other symbols (-, ", ', `), as they can disrupt the flow of prompts and reduce productivity in responding to prompts. Since the AI undergoes many intermediate steps of deduction and analysis, an unclear or vague description can magnify errors and prevent convergence toward a correct solution.
 
-- Despite numerous attempts, certain bugs persist. In particular, with the backtesting issue, I manually inspected ChatGPT's code and adjusted the problem description to account for edge cases.
+- Despite repeated attempts, certain bugs persist. Specifically, with the backtesting problem, I manually inspected ChatGPT's code and then revised the problem description to address edge cases.
 
-- Proper machine configuration is essential for rerunning existing code package effectively.
+- Proper machine configuration, along with the necessary software and packages, is essential for rerunning existing code effectively.
 
 
 ## 3. Citation
